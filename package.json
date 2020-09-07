@@ -1,0 +1,22 @@
+{
+  "name": "pandaya-lux",
+  "version": "1.0.0",
+  "description": "Module to Read Light Intensity Data for Pandaya+ Device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pandaya+",
+    "lux",
+    "analog"
+  ],
+  "author": "prajadimas",
+  "license": "ISC",
+  "dependencies": {
+    "ads1115": "^1.2.0",
+    "i2c-bus": "^5.2.0",
+    "round-to": "^4.1.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
